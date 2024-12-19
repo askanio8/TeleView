@@ -1,0 +1,48 @@
+# Проверка главной страницы
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+# Регистрация пользователя
+POST http://127.0.0.1:8000/register
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "email": "testuser@mail.com",
+  "password": "testpassword"
+}
+
+###
+
+# Вход пользователя
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "testpassword"
+}
+
+###
+
+# Неверный вход пользователя
+POST http://127.0.0.1:8000/login
+CContent-Type: application/json
+
+{
+  "username": "wronguser",
+  "password": "wrongpassword"
+}
+###
+
+
+###
+POST http://127.0.0.1:8000/start-telegram-auth
+CContent-Type: application/json
+
+{
+  "phone_number": "wronguser",
+  "db": "wrongpassword"
+}
