@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TeleView - Social Media Message Viewing System
 
-## Getting Started
+### Description
+This application allows users to connect their Telegram account to view chat lists and messages. It is designed as a tool for managing social media messages, built with `FastAPI` for the backend and `Next.js` for the frontend.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Features
+- **User Authentication**: Sign up or log in to your account.
+- **Telegram Account Integration**: Connect your Telegram account.
+- **Chat List View**: View all chats associated with your connected account.
+- **Message View**: Access messages from a selected chat.
+- **Account Logout**: Disconnect your Telegram account.
+- **System Logout**: Log out of the application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Technology Stack
+- **Frontend**: [Next.js](https://nextjs.org/) — A modern framework for building web applications.
+- **Backend**: [FastAPI](https://fastapi.tiangolo.com/) — A fast and intuitive API framework.
+- **Database**: SQLite — A lightweight, embedded relational database.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### Installation and Setup
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/askanio8/TeleView.git
+   cd TeleView
